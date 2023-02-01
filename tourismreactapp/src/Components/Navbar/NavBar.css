@@ -1,0 +1,60 @@
+#navbar {
+  color: black;
+  position: fixed;
+  width: 100%;
+  height: 100px;
+  transform: translateY(-8px);
+  display: flex;
+  font-size: 20px;
+  font-family: 'Mulish';
+  z-index: 3;
+  margin-top: 60px;
+  background: rgba(255, 255, 255, 0);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.pagelogo {
+  margin-top: 3px;
+  margin-left: 60px;
+  flex-basis: 16%;
+  max-width: 110px;
+}
+
+.pagelogo img {
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.links ul{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-basis: 60%;
+  border-radius: 50px;
+}
+
+.links ul li {
+  padding: 7px 2px;
+  margin: 8px;
+  border-radius: 2px;
+}
+
+.links ul li:hover {
+  border-bottom: 3px solid black;
+}
+
+.button-area{
+  position: absolute;
+  right: 67px;
+  display: flex;
+  height: 99px;
+  align-items: center;
+  justify-content: center;
+}

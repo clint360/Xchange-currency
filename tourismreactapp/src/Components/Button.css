@@ -1,0 +1,36 @@
+.button {
+box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 11px 24px;
+gap: 10px;
+background: #C7923E;
+border: 1px solid hsl(165, 24%, 25%);
+border-radius: 8px;
+font-family: 'Mulish';
+}
+
+.name {
+width: 112px;
+height: 19px;
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 200;
+font-size: 16px;
+line-height: 120%;
+text-align: center;
+letter-spacing: 0.005em;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 1;
+}
+
+.button:hover {
+  filter: brightness(90%);
+}

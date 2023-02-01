@@ -1,0 +1,83 @@
+.searchbar {
+position: absolute;
+width: 1000px;
+height: 88px;
+left: 180px;
+top: 877px;
+background: #304F47;
+border-radius: 8px;
+z-index: 1;
+display: flex;
+align-items: center;
+align-content: center;
+}
+
+.actualsearchbar {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 27%;
+  height: 60px;
+  border-radius: 10px;
+  background: white;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+  font-family: 'Mulish';
+}
+
+.actualsearchbar input {
+  width: 210px;
+  border: none;
+  padding: 10px 3px;
+  border-radius: 10px;
+}
+
+.searchbar i {
+  font-size: 15px;
+  color: #304F47;
+}
+
+.props {
+  flex-basis: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 70px;
+}
+
+.prop1 p{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 120%;
+letter-spacing: 0.008em;
+color: #9A9AB0;
+}
+
+.prop1 select {
+  background: none;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: right;
+  letter-spacing: 0.005em;
+  color: #FFFFFF;
+  padding: 0 23px 0 0px;
+  background-image: url('../../../resources/images/icon.svg');
+  background-repeat: no-repeat;
+  background-position: calc(100% - 3px) center;
+  background-size: 15px;
+}
+
+.btnarea {
+  flex-basis: 25%;
+}

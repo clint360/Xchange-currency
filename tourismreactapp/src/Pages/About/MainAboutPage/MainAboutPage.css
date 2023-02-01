@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@500&display=swap');
+
+.main-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.textContainer__left {
+  padding: 150px 50px 0 100px;
+}
+
+.textContainer__left h1 {
+  font-family: 'Lora', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  width: 608px;
+  font-size: 62px;
+  word-break: normal;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.imageContainer__right {
+  background-image: url('./../../../Images/about.jpeg');
+  width: 50%;
+  height: 782px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 950px){
+  
+  .main-container {
+    background-image: url("https://www.rainforest-rescue.org/photos/article/wide/xxl/dvp1085048.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+  }
+
+  .textContainer__left {
+    padding: 350px 0px 0 0px;
+  }
+
+  .textContainer__left h1 {
+    width: 98%;
+    font-size: 48px;
+    margin-left: 5%;
+  }
+
+  .textContainer__left p{
+    margin-left: 5%;
+  }
+
+  .imageContainer__right {
+    background-image: none;
+    width: 20%;
+  }
+}
+
+
+
+
+

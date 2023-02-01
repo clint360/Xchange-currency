@@ -1,0 +1,60 @@
+.intro {
+  margin-top: 98px;
+  color: white;
+  z-index: -1;
+}
+
+.placeholder{
+  background: rgba(48, 79, 71, 1);
+}
+
+.backdropimage {
+  opacity: 0.5;
+  filter: saturate(130%);
+}
+
+.description h1 {
+  position: absolute;
+  top: 260px;
+  width: 669px;
+  height: 148px;
+  left: 136px;
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 120%;
+  letter-spacing: 0.003em;
+  color: #FFFFFF;
+}
+
+.description p {
+  position: absolute;
+  width: 354px;
+  height: 25px;
+  left: 136px;
+  top: 427px;
+  
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  /* identical to box height, or 25px */
+  
+  letter-spacing: 0.005em;
+  
+  color: #FFFFFF;
+  
+}
+
+.navigators {
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  display: flex;
+  position: relative;
+  gap: 75%;
+  top: -200px;
+  justify-content: center;
+}
+

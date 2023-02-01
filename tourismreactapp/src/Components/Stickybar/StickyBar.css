@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap');
+
+.bar {
+  position: fixed;
+  width: 100%;
+  height: 55px;
+  left: 0px;
+  top: 0px;
+  background: #304F47;
+  font-family: 'Lora';
+  color: #fff;
+  display: flex;
+  z-index: 3;
+}
+
+.bar i {
+  font-size: 20px;
+}
+
+.topwriting {
+  transform: translateY(-40); 
+  font-size: 12px;
+}
+
+.firstgroup {
+  background: rgba(0, 0, 0, 0);
+  width: 330px;
+  padding: 15px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 100px;
+}
+
+.item {
+  align-items: center;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5px;
+}
+
+.secondgroup {
+position: absolute;
+width: 120px;
+height: 25.24px;
+right: 100px;
+padding: 15px;
+}

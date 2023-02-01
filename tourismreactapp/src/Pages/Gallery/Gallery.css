@@ -1,0 +1,23 @@
+.buttonSpaced {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  width: 1124px;
+  padding: 75px 0 0 0;
+  margin: auto;
+}
+
+.GalleryStyles {
+  display: flex;
+  flex-direction: column;
+  margin-top: 99px;
+}
+
+@media screen and (max-width: 950px) {
+
+  .buttonSpaced {
+    justify-content: center;
+    width: 100%;
+  }
+  
+}
