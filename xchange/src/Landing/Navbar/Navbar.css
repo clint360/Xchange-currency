@@ -10,6 +10,7 @@
     border-bottom: 3px solid #29292941;
     width: auto;
     margin: auto;
+    background: rgba(255, 255, 255, 0.321);
 }
 
 .logodiv {
@@ -41,10 +42,12 @@
     align-items: center;
     display: flex;
     height: 40%;
+    border-bottom: 2px solid transparent;
+    transition: 1s border-bottom;
   }
   
   .pageslists ul li:hover {
-   border-bottom: 2px solid black;
+   border-bottom: 2px solid #0378cd;;
   }
 
 .login_and_signup {

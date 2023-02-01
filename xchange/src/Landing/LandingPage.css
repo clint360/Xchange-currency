@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
 
+#mainmain {
+    background: url('https://img.freepik.com/free-vector/blue-pink-halftone-background_53876-99004.jpg');
+    background-size: cover;
+    padding: 0px 20px;
+}
+
 #main {
     width: 60%;
     margin: auto;
@@ -21,7 +27,7 @@
 }
 
 .description h1{
-    font-size: 51px;
+    font-size: 50px;
      font-family: 'Poppins';
     font-weight: 600;
     color: #22225c;
@@ -97,6 +103,53 @@
 
 .begin {
     animation: 1s ease-out 0s 1 slideInLeft;
+}
+
+#facts {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background: rgba(238, 238, 238, 0.187);
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-family: 'Poppins';
+}
+
+#howitworks {
+    border-radius: 20px;
+    padding: 40px 0px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#howitworks h1 {
+    color: #000000;
+    font-family: 'Poppins';
+}
+
+#howitworks p {
+    background: #82828221;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.fact img {
+ width: 80%;
+ height: 180px;
+ transition: 0.5s transform, 2s rotate
+}
+
+.fact img:hover {
+    transform: translate3d(0px, -10px, 10px);
+    rotate: 30deg;
+   }
+
+.fact {
+    width: 200px;
+    font-size: 22px;
+}
+.fact .dash {
+    width: 250px;
 }
 
 @keyframes slideInLeft {
