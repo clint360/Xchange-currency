@@ -1,7 +1,7 @@
 import React from 'react'
 import './LandingButton.css'
 
-function LandingButton({text, background, color}) {
+function LandingButton({text, background, color, onclick, type}) {
     const button = {
         border: '1px solid #0378cd',
         borderRadius: '5px',
@@ -12,6 +12,7 @@ function LandingButton({text, background, color}) {
         color: color,
         background: background,
         fontFamily: 'Poppins',
+        cursor: 'pointer'
     }
 
     const buttonarea = {
@@ -19,7 +20,7 @@ function LandingButton({text, background, color}) {
     }
   return (
     <div style={buttonarea} >
-      <button style={button} className="landingbutton">{text}</button>
+      <button style={button} className="landingbutton" onClick={()=>{onclick()}} type={type}>{text}</button>
     </div>
   )
 }

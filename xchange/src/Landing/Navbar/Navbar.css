@@ -11,6 +11,8 @@
     width: auto;
     margin: auto;
     background: rgba(255, 255, 255, 0.321);
+    position: fixed;
+    width: inherit;
 }
 
 .logodiv {

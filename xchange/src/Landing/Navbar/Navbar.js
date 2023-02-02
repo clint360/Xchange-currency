@@ -13,8 +13,8 @@ function Navbar() {
       <div className='pageslists'>
         <ul type="none">
            <li>Home</li> 
-           <li>Market</li> 
-           <li>Explore</li> 
+           <li>How?</li> 
+           <li>Blog</li> 
         </ul>
       </div>
       <div className='login_and_signup'>
